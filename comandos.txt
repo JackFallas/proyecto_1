@@ -1,0 +1,34 @@
+git init --> hace...
+git config --local user.name "" --> hace...
+git config --local user.email "" --> hace...
+
+git config --list --> hace...
+
+* crear un archivo 
+>touch index.html
+
+git status --> identifica el estado de los archivos
+                referente a la arquitectura de git.
+                working directory (rojo)
+                stagin area (verde)
+                repository ("clear three")
+
+git add <nombre_archivo>
+
+git commit -m "Descripcion del commit"
+git log --> lista los commits realizados
+
+*touch comandos.txt
+* creamos .gitignore para agregar los archivos que no queremos cargar.
+>touch .gitignore
+
+>> **/comandos.txt
+
+git checkout <hash> --> cambia la ubicacion del HEAD
+
+git reflog --> revisa todos los movimientos de HEAD
+
+git diff --> revisa todos los cambios (diferencias) realizadas en un documento en el repositorio
+
+git add . --> agrega todos los archivos modificados o sin seguimiendo dl staging  area
+
